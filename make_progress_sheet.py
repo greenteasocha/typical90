@@ -1,11 +1,8 @@
 import sys
-import urllib.request
 import requests
 from collections import defaultdict
 from typing import *
 from bs4 import BeautifulSoup
-
-import json
 
 url = 'https://atcoder.jp/'
 url_login = 'https://atcoder.jp/login'
