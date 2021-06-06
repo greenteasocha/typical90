@@ -25,10 +25,8 @@ def login() -> requests.session:
 
     result = session.post(url_login, data=login_info)
     result.raise_for_status()
-    if result.status_code == 200:
-        print("log in!")
-    else:
-        print("failed...")
+
+    assert result.status_code == 200, "Failed to Login."
 
     return session
 
@@ -77,7 +75,7 @@ def summarize_table(rows: List):
 
 def write_markdown(summarized):
     lines = []
-    lines.append("See: https://atcoder.jp/contests/typical90 \n")
+    lines.append("See: https://atcoder.jp/contests/typical90 \n\n")
     lines.append("|  Problem  |  Status  |\n")
     lines.append("| ---- | ---- |\n")
     for i in range(90):
