@@ -21,4 +21,4 @@ jobs:
           USERNAME: ${{ secrets.LOGIN_NAME_TEST }}
           PASSWORD: ${{ secrets.LOGIN_PASSWORD_TEST }}
         run: |
-          python make_progress_sheet.py "$USERNAME" "$PASSWORD"
+          python make_progress_sheet.py "$USERNAME" "$PASSWORD" > README.md
