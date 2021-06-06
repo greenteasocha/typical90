@@ -8,7 +8,7 @@ ps://atcoder.jp/contests/typical90
 | 4 | :heavy_check_mark: |
 | 5 |  |
 | 6 |  |
-| 7 |  |
+| 7 | :x: |
 | 8 |  |
 | 9 |  |
 | 10 |  |
