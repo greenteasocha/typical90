@@ -1,8 +1,6 @@
 name: run-python
 
-on:
-  schedule:
-    - cron: '*/2 * * * *'
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
