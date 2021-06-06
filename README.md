@@ -1,7 +1,8 @@
-See: https://atcoder.jp/contests/typical90 
+log in!
+ps://atcoder.jp/contests/typical90 
 |  Problem  |  Status  |
 | ---- | ---- |
-| 1 |  |
+| 1 | :x: |
 | 2 |  |
 | 3 |  |
 | 4 | :heavy_check_mark: |
