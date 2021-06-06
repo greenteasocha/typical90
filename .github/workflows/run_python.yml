@@ -17,7 +17,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: execute py script # run script to get the latest data
-        with:
+        env:
           USERNAME: ${{ secrets.LOGIN_NAME_TEST }}
           PASSWORD: ${{ secrets.LOGIN_PASSWORD_TEST }}
         run: |
