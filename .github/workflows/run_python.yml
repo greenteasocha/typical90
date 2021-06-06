@@ -24,3 +24,9 @@ jobs:
           PASSWORD: ${{ secrets.LOGIN_PASSWORD_TEST }}
         run: |
           python make_progress_sheet.py "$USERNAME" "$PASSWORD" > README.md
+      - name: Commit changes
+        run: |
+          git config --global user.name 'hoge'
+          git config --global user.email 'example@example.com'
+          git commit -am "Status Updated"
+          git push
