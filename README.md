@@ -1,11 +1,10 @@
-log in!
-ps://atcoder.jp/contests/typical90 
+See: https://atcoder.jp/contests/typical90 
 |  Problem  |  Status  |
 | ---- | ---- |
-| 1 | :x: |
-| 2 |  |
+| 1 | :heavy_check_mark: |
+| 2 | :heavy_check_mark: |
 | 3 |  |
-| 4 | :heavy_check_mark: |
+| 4 |  |
 | 5 |  |
 | 6 |  |
 | 7 |  |
@@ -22,7 +21,7 @@ ps://atcoder.jp/contests/typical90
 | 18 |  |
 | 19 |  |
 | 20 |  |
-| 21 |  |
+| 21 | :heavy_check_mark: |
 | 22 |  |
 | 23 |  |
 | 24 |  |

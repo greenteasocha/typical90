@@ -2,7 +2,7 @@ name: run-python
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '0 0 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,8 +20,8 @@ jobs:
           pip install -r requirements.txt
       - name: execute py script # run script to get the latest data
         env:
-          USERNAME: ${{ secrets.LOGIN_NAME_TEST }}
-          PASSWORD: ${{ secrets.LOGIN_PASSWORD_TEST }}
+          USERNAME: ${{ secrets.LOGIN_NAME }}
+          PASSWORD: ${{ secrets.LOGIN_PASSWORD }}
         run: |
           python make_progress_sheet.py "$USERNAME" "$PASSWORD" > README.md
       - name: Commit changes
