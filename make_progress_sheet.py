@@ -1,3 +1,4 @@
+import sys
 import urllib.request
 import requests
 from collections import defaultdict
@@ -21,8 +22,8 @@ def login() -> requests.session:
 
     login_info = {
         "csrf_token": csrf_token,
-        "username": "xxxx",
-        "password": "xxxx"
+        "username": USERNAME,
+        "password": PASSWORD
     }
 
     result = session.post(url_login, data=login_info)
@@ -45,14 +46,15 @@ def get_all_submissions(session: requests.session) -> List:
     found = s.find('div', class_='table-responsive')
     table = found.findAll("table", {"class": "table"})[0]
 
-    # print(table)
-
     rows = table.findAll("tr")
 
     return rows[1:]
 
 
 def parse_problem(problem: str) -> int:
+    """
+    extract problem number
+    """
     return int(problem[:3])
 
 
@@ -78,6 +80,7 @@ def summarize_table(rows: List):
 
 def write_markdown(summarized):
     lines = []
+    lines.append("See: https://atcoder.jp/contests/typical90 \n")
     lines.append("|  Problem  |  Status  |\n")
     lines.append("| ---- | ---- |\n")
     for i in range(90):
@@ -101,11 +104,9 @@ def main():
     summarized = summarize_table(submissions)
     write_markdown(summarized)
 
-    # print(summarized)
-
 if __name__ == "__main__":
+    USERNAME, PASSWORD = sys.argv[1:]
     main()
-
 
 # ref
 # session and login

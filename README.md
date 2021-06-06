@@ -1,9 +1,10 @@
+See: https://atcoder.jp/contests/typical90 
 |  Problem  |  Status  |
 | ---- | ---- |
-| 1 | :heavy_check_mark: |
-| 2 | :heavy_check_mark: |
+| 1 |  |
+| 2 |  |
 | 3 |  |
-| 4 |  |
+| 4 | :heavy_check_mark: |
 | 5 |  |
 | 6 |  |
 | 7 |  |
@@ -20,7 +21,7 @@
 | 18 |  |
 | 19 |  |
 | 20 |  |
-| 21 | :heavy_check_mark: |
+| 21 |  |
 | 22 |  |
 | 23 |  |
 | 24 |  |
