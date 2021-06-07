@@ -1,4 +1,5 @@
 See: https://atcoder.jp/contests/typical90 
+
 |  Problem  |  Status  |
 | ---- | ---- |
 | 1 | :heavy_check_mark: |
