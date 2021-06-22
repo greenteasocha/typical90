@@ -4,14 +4,14 @@ See: https://atcoder.jp/contests/typical90
 | ---- | ---- |
 | 1 | :heavy_check_mark: |
 | 2 | :heavy_check_mark: |
-| 3 |  |
-| 4 |  |
+| 3 | :heavy_check_mark: |
+| 4 | :heavy_check_mark: |
 | 5 |  |
-| 6 |  |
-| 7 |  |
-| 8 |  |
-| 9 |  |
-| 10 |  |
+| 6 | :heavy_check_mark: |
+| 7 | :heavy_check_mark: |
+| 8 | :heavy_check_mark: |
+| 9 | :heavy_check_mark: |
+| 10 | :heavy_check_mark: |
 | 11 |  |
 | 12 |  |
 | 13 |  |
