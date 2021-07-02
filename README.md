@@ -2,8 +2,8 @@ See: https://atcoder.jp/contests/typical90
 
 |  Problem  |  Status  |
 | ---- | ---- |
-| 1 | :heavy_check_mark: |
-| 2 | :heavy_check_mark: |
+| 1 |  |
+| 2 |  |
 | 3 | :heavy_check_mark: |
 | 4 | :heavy_check_mark: |
 | 5 |  |
@@ -16,10 +16,10 @@ See: https://atcoder.jp/contests/typical90
 | 12 | :heavy_check_mark: |
 | 13 | :heavy_check_mark: |
 | 14 | :heavy_check_mark: |
-| 15 |  |
+| 15 | :heavy_check_mark: |
 | 16 | :heavy_check_mark: |
 | 17 |  |
-| 18 |  |
+| 18 | :x: |
 | 19 |  |
 | 20 |  |
 | 21 | :heavy_check_mark: |
