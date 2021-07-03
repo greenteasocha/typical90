@@ -4,12 +4,12 @@ See: https://atcoder.jp/contests/typical90
 | ---- | ---- |
 | 1 |  |
 | 2 |  |
-| 3 | :heavy_check_mark: |
-| 4 | :heavy_check_mark: |
+| 3 |  |
+| 4 |  |
 | 5 |  |
-| 6 | :heavy_check_mark: |
-| 7 | :heavy_check_mark: |
-| 8 | :heavy_check_mark: |
+| 6 |  |
+| 7 |  |
+| 8 |  |
 | 9 | :heavy_check_mark: |
 | 10 | :heavy_check_mark: |
 | 11 | :heavy_check_mark: |
@@ -21,16 +21,16 @@ See: https://atcoder.jp/contests/typical90
 | 17 |  |
 | 18 | :x: |
 | 19 |  |
-| 20 |  |
-| 21 | :heavy_check_mark: |
-| 22 |  |
+| 20 | :heavy_check_mark: |
+| 21 |  |
+| 22 | :heavy_check_mark: |
 | 23 |  |
-| 24 |  |
+| 24 | :heavy_check_mark: |
 | 25 |  |
-| 26 |  |
-| 27 |  |
+| 26 | :heavy_check_mark: |
+| 27 | :heavy_check_mark: |
 | 28 |  |
-| 29 |  |
+| 29 | :heavy_check_mark: |
 | 30 |  |
 | 31 |  |
 | 32 |  |
